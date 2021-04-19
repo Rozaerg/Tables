@@ -109,4 +109,25 @@ caption {
 .table-image {
     margin: 0 auto;
     }
-2
+
+    table.GeneratedTable {
+      width: 50%;
+      background-color: #ffdbdb;
+    border-collapse: separate;
+      border-width: 2px;
+      border-color: #bd0013;
+      border-style: solid;
+      color: #000000;
+    }
+    
+    table.GeneratedTable td, table.GeneratedTable th {
+      border-width: 2px;
+      border-color: #bd0013;
+      border-style: solid;
+      padding: 3px;
+    }
+    
+    table.GeneratedTable thead {
+      background-color: #ff6675;
+    }
+    
